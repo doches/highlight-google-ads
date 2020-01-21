@@ -9,7 +9,7 @@
     "content_scripts": [
         {
             "matches": [
-                "*://*.google.com/*",
+                "*://*.google.com/*"
             ],
             "css": [
                 "styles.css"
