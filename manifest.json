@@ -10,7 +10,6 @@
         {
             "matches": [
                 "*://*.google.com/*",
-                "*://texasexpat.net/*"
             ],
             "css": [
                 "styles.css"
