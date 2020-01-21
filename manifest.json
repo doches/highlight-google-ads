@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "Highlight Google Ads",
+    "version": "0.1.0",
+    "description": "Changes the style of Google's search ads, making them easier to identify.",
+    "icons": {
+        "48": "./icon.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*.google.com/*",
+                "*://texasexpat.net/*"
+            ],
+            "css": [
+                "styles.css"
+            ]
+        }
+    ]
+}
